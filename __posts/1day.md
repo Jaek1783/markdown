@@ -5,7 +5,7 @@
 ## 1. MPA통신구조
 
 ### MPA의 통신 구조를 염두에 두고 통신 상황에서 실제 어떤 일
-![MPA의 통신구조 이미지](https://lean-mahogany-686.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F15fdf86d-3a7c-4b7a-a651-b6720451a2db%2FUntitled.png?id=7aaf62d4-870c-4453-af40-fa1767f5907e&table=block&spaceId=7ac0bf59-e3bb-4f76-a93b-27f040ec55b6&width=2000&userId=&cache=v2)
+![MPA의 통신구조 이미지](/image/1day/image01.png)
   - 유저가 서버에 GET 요청을 보내 `index.html`을 받았습니다.
   - 유저는 브라우저에서 `index.html` 을 열어 웹 사이트를 이용합니다.
   - `index.html` 페이지 내에 form 태그가 있습니다. 해당 form 태그는 input에 유저의 정보를 담아 서버로 POST 요청을 보냅니다. 
@@ -44,7 +44,7 @@
   - 서버와 완벽 분리
 
 ### CSR에서의 브라우저 렌더링 시나리오
-![CSR에서의 브라우저 렌더링 시나리오 이미지](https://lean-mahogany-686.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F632515fa-e2f2-4629-a632-83cbb6570c5b%2FUntitled.png?id=9e5fa85b-bff8-420b-b7e3-9529103711c0&table=block&spaceId=7ac0bf59-e3bb-4f76-a93b-27f040ec55b6&width=2000&userId=&cache=v2 "CSR에서의 브라우저 렌더링 시나리오 이미지")
+![CSR에서의 브라우저 렌더링 시나리오 이미지](/image/1day/image02.png)
   - 브라우저에서 서버로 **웹 페이지를 조회하고 싶다는 요청**
   -  서버는 브라우저로부터 날아온 요청 경로를 확인(`/`)하고 `index.html` 을 서버 내 자원으로부터 찾아 응답으로 돌려준다. 이 때 **index.html의 body 태그 내부는 비어있는 상태**
   - 브라우저는 HTML 파일에서 **head 태그를 읽으며 추가로 필요한 자원(`index.js`, `index.css` 등)을 서버로 다시 요청**
@@ -56,4 +56,4 @@
      - 변경을 감지하여 **DOM API가 다른 페이지에 알맞은 화면을 그리도록** 한다
 
 ### Critical Rendering Path! (중요 렌더링 경로)
-![CSR에서의 브라우저 렌더링 시나리오 이미지](https://lean-mahogany-686.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0e2dd561-a784-4bde-b274-8d7cadc97440%2FUntitled.png?id=8a9cf13b-2ecd-4f0e-8381-ac6a3dfd230a&table=block&spaceId=7ac0bf59-e3bb-4f76-a93b-27f040ec55b6&width=2000&userId=&cache=v2 "CSR에서의 브라우저 렌더링 시나리오 이미지")
+![CSR에서의 브라우저 렌더링 시나리오 이미지](/image/1day/image03.png)

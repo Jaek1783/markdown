@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import { getPostData, getpostsFiles } from "../helper/util";
 const ClickPageComponent = (props)=>{
-    console.log(props.post)
+    // console.log(props.post)
     return <div className="page">
         <ReactMarkdown>{props.post.content}</ReactMarkdown>
     </div>
