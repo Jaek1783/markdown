@@ -1,0 +1,27 @@
+{
+  "name": "markdown",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "next": "13.4.9",
+    "path": "^0.12.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.1",
+    "@types/react": "18.2.14",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9",
+    "typescript": "5.1.6"
+  }
+}
