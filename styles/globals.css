@@ -18,7 +18,7 @@ img{
   z-index: 999;
 }
 .aside{
-  width:8rem;
+  width:15rem;
   height:100vh;
   border-right:1px solid #000 ;
   /* padding-top:9rem; */
@@ -39,9 +39,13 @@ img{
   background-color: antiquewhite;
   font-weight: 600;
 }
+.active{
+  background-color: antiquewhite;
+  font-weight: 600;
+}
 .page{
   padding:9rem 1rem 0;
-  margin-left:10rem;
+  margin-left:15rem;
 }
 .page>h2,h3,h4{
   padding:1rem 0;
@@ -61,4 +65,89 @@ img{
   color:#000;
   font-size:1rem;
   padding:1rem;
+}
+.container{
+  display:flex;
+  justify-content: center;
+}
+.title {
+  background-color:antiquewhite;
+  text-align : center;
+  padding:.3rem 0;
+}
+.main-container{
+  padding:1rem;
+}
+.main-item{
+  padding:0 1rem;
+}
+.about-container>ul{
+  padding-bottom:1rem;
+}
+.career-container>span{
+  font-weight:bold;
+}
+.career-container>ul{
+  padding: .5rem;
+}
+.career-container>ul>li>ul{
+  padding:.5rem;
+}
+.experience-container{
+  border-left:1px solid #000;
+  list-style-type: none;
+  padding-left:2rem;
+  position: relative;
+  margin-left:3rem;
+}
+.experience-item{
+  list-style: none;
+}
+.experience-item-container::before{
+  content:"";
+  position:absolute;
+  width:15px;
+  height:15px;
+  border-radius: 100%;
+  border:1px solid antiquewhite;
+  background-color: #fff;
+  left:-9px;
+}
+.experience-item-item::before{
+  content:"";
+  position:absolute;
+  width:7px;
+  height:7px;
+  border-radius: 100%;
+  background-color: #0a0263;
+  /* top:45px; */
+  left:-4px;
+  margin-top:5px;
+}
+.year::before{
+  position: absolute;
+  font-weight: bold;
+}
+.Y2018::before{
+  content: "2018";
+  left: -50px;
+}
+.Y2019::before{
+  content: "2019";
+  left:-50px;
+}
+.Y2022::before{
+  content: "2022";
+  left:-50px;
+}
+.Y2023::before{
+  content: "2023";
+  left:-50px;
+}
+.main-container dl{
+  padding:.5rem 0;
+}
+.main-container dl>dt{
+  font-weight: 300;
+  padding-bottom: .5rem;
 }
