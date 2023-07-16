@@ -2,10 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ProjectDetail = ({posts})=>{
-    console.log(posts.stack)
     return <>
     <h1 className="project-detail-title">{posts.title}</h1>
-    <h2><Image src={posts.mainImage} alt={`${posts.title}이미지`} width={1000} height={1000}/></h2>
+    <h2><Image src={posts.mainImage} alt={`${posts.title}이미지`} width={500} height={100} priority/></h2>
     <ul className="project-detail-container">
         <li>
             <dl className="project-detail-item">
