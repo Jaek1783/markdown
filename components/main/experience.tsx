@@ -34,12 +34,15 @@ const Experience = ()=>{
             <li>
                 <dl>
                     <dt>리액트 기초반, 심화반<br/>온라인 강의 - 스파르타 코딩클럽</dt>
-                    <dd className="month M0512">
+                    <dd className="month M0709">
                         <span className="experience-item-item">리액트 - 함수형 컴포넌트 분리, 재사용
                             <br/>리덕스를 사용한 상태관리
                             <br/>Firebase를 이용한 프론트엔드 서버리스
                             <br/>AWS S3 Route53 CloudFront를 사용한 정적사이트 도메인 배포
                         </span>
+                    </dd>
+                    <dd className="month M1011">
+                        <span className="experience-item-item">리액트 풀스택 웹사이트 제작</span>
                     </dd>
                 </dl>
             </li>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 const PreOnBoarding = ({list, activeTitle})=>{
     return <>
-        <span>원티드</span><br/>
+        <span className="aside-content">원티드</span>
         <span>7월 프리온보딩</span>
         <ol>
             {list.map((l, index) => (

@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  color:#000;
 }
 a{
   color:#000;
@@ -67,19 +68,23 @@ h2{
 .aside>span{
   font-weight:bold;
 }
+.aside-content{
+  padding-top:1rem;
+  display: block;
+}
 .aside>ol>li{
   border-bottom:1px dotted #000;
-  padding:.5rem 0;
   text-align: right;
   list-style-type: none;
   display: flex;
   flex-direction: column;
 }
-.aside>ol>li:hover{
-  background-color: #0a0263;
-  font-weight: 600;
+.aside>ol>li>a{
+  padding:.5rem 0;
 }
 .aside>ol>li:hover>a{
+  background-color: #0a0263;
+  font-weight: 600;
   color:#fff;
 }
 .active{
@@ -218,8 +223,16 @@ h2{
   content:'01 ~ 04';
   left:-50px;
 }
-.M0512::before{
-  content:'05 ~ 12';
+.M0507::before{
+  content:'05 ~ 07';
+  left:-50px;
+}
+.M0709::before{
+  content:'05 ~ 09';
+  left:-50px;
+}
+.M1011::before{
+  content:'10 ~ 11';
   left:-50px;
 }
 .M05::before{
@@ -236,4 +249,27 @@ h2{
 .main-container dl>dt{
   font-weight: 300;
   padding-bottom: .5rem;
+}
+
+/* project-detail */
+.project-detail-container>li{
+  list-style-type: none;
+}
+.project-detail-item>dt{
+  font-size: 2rem;
+  font-weight:bold;
+}
+.project-detail-item>dd{
+  width:100%;
+  padding:.5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-detail-item-text{
+  width:100%;
+}
+.project-detail-item-image{
+  margin:.5rem;
+  width:40%;
+  border:1px solid #000;
 }

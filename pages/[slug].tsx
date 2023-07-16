@@ -1,9 +1,9 @@
 import ReactMarkdown from "react-markdown";
 import { getPostData, getpostsFiles } from "../helper/util";
-const ClickPageComponent = (props)=>{
-    // console.log(props.post)
+import ProjectDetail from "../components/projects/project-detail";
+const ClickPageComponent = ({posts})=>{
     return <div className="page">
-        <ReactMarkdown >{props.post.content}</ReactMarkdown>
+        {posts.title ? <ProjectDetail posts = {posts}/>:<ReactMarkdown >{posts.content}</ReactMarkdown>}
     </div>
 };
 export default ClickPageComponent;
@@ -14,7 +14,7 @@ export const getStaticProps = (context)=>{
     const postData = getPostData(slug);
     return {
         props : {
-            post:postData
+            posts:postData
         },
         revalidate : 600
     }
