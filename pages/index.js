@@ -2,6 +2,7 @@ import AboutMe from '../components/main/about';
 import MyPage from '../components/main/my-page';
 import Career from '../components/main/career';
 import Experience from '../components/main/experience';
+import Intro from '../components/main/introduce';
 import Image from 'next/image';
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         </div>
         <Experience/>
       </div>
+      <Intro/>
     </main>
   )
 }
