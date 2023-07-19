@@ -5,15 +5,16 @@ import PreOnBoarding from "./pre-on-boarding";
 import Project from "./project";
 const AsideListComponent = () => {
   const list: { title: string }[] = [
-    { title: "1day" },
-    { title: "2day" },
-    { title: "3day" },
+    { title: "1Week" },
+    { title: "2Week" },
+    { title: "3Week" },
   ];
   const project : {title:string}[] = [
     {title: "bbangssaem"},
     {title: "janet"},
     {title: "salad"},
     {title: "planner"},
+    {title: "expense"},
   ]
 
   const router = useRouter();
