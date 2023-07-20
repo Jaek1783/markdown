@@ -15,6 +15,7 @@ const AsideListComponent = () => {
     {title: "salad"},
     {title: "planner"},
     {title: "expense"},
+    {title: "pizza"},
   ]
 
   const router = useRouter();
