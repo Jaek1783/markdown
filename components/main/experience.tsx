@@ -62,16 +62,6 @@ const Experience = ()=>{
                 </dl></li>
             <li>
                 <dl>
-                    <dt>리액트 / 리덕스 / 넥스트 JS / 타입스크립트
-                        <br/>온라인 강의 - Udemy
-                    </dt>
-                    <dd className="month M05">
-                        <span className="experience-item-item">음식 주문 앱 만들기</span>
-                    </dd>
-                </dl>
-            </li>
-            <li>
-                <dl>
                     <dt>리액트 / 넥스트 JS / 원티드 - 프리온보딩 7월
                     </dt>
                     <dd className="month M07">
@@ -81,6 +71,17 @@ const Experience = ()=>{
                             <br/>Node JS 기능 fs, path을 이용한 Markdown 블로그 만들기
                             <br/>Framework Next JS
                         </span>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>리액트 / 리덕스 / 넥스트 JS / 타입스크립트
+                        <br/>온라인 강의 - Udemy
+                    </dt>
+                    <dd className="month M07">
+                        <span className="experience-item-item">expense 시각화 사이트 만들기</span>
+                        <span className="experience-item-item">피자헛 디자인 카피 사이트 만들기</span>
                     </dd>
                 </dl>
             </li>
